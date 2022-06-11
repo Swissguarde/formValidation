@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Using Regex</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container pt-2">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <h1>User Form</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Name" autocomplete="off">
+                        <div class="invalid-feedback">Name must be between 2 and 10 characters</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Zipcode">Zipcode</label>
+                        <input type="text" id="zip" class="form-control" placeholder="Zipcode" autocomplete="off">
+                        <div class="invalid-feedback">Enter a valid email</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" id="email" class="form-control" placeholder="Name" autocomplete="off">
+                        <div class="invalid-feedback">Enter a valid email</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="text" id="phone" class="form-control" placeholder="Phone Number" autocomplete="off">
+                        <div class="invalid-feedback">Enter a valid phone</div>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block w-100 mt-3">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
